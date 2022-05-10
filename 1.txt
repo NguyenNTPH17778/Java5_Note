@@ -1,0 +1,4 @@
+- Dependency (Sự phụ thuộc): private ...
+- Springboot: frame wwork, open source(cấu hình mở), MVC,Ioc,DI
+- Có 2 cách khởi tạo 1 đối tượng(dependency Injection) (1: Truyền 1 dt mới trong bên ngoài, 2:Autowied)
+- Dtuong duoc khoi tao là 1 IOC Container(lõi) 
