@@ -1,0 +1,18 @@
+-@ResponseBody: Dữ liệu trực tiếp 
+	Forward:/other-url: chuyển tiếp sang url #(same request)
+	Redirect:/other-url: chuyển hướng sang url #(other request)
+- 3 cách xử lý dữ liệu ng dùng gửi lên: 
+	- @RequestParam(defaultValue, Optional),
+ 	- HttpServletRequest,
+	- Java Bean 
+- 2 Data Sharing: 
+	AddAttribute
+	@ModelAttribute
+- Mapping method: 
+	string
+	Void
+	@ResponseBody
+- Model: 1 framework cho ui
+- @PathVariable(name, required)
+- Model: req(beans: ánh xạ req đc gửi lên) -> Controller ->DAO -> DB( được mapping entity) 
+			-> view(Model) ->respone

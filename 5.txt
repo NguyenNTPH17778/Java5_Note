@@ -1,0 +1,5 @@
+- @Component: đánh dấu class là 1 component(thành phần trong spring) và được nạp vào IOC Container.
+- @Primary: Chỉ sử dụng đc 1 trong 2.
+- @Qualifier: 
+- @Bean:
+- @Configuration

@@ -1,0 +1,34 @@
+Class có @Controller là Ioc Contrainner
+@GetMapping là : ánh xạ đường dẫn vào các phowng thức trong controller, chỉ phục vụ cho method là Get
+@Controller là Đánh dấu class htai là controller, tiếp nhận và xử lý request. 
+@Controller: Còn là class dc quản lý bởi IOC Container. và được gọi thông qua @Autowired
+@Request mapping : ánh xạ đường dẫn đến Controller
+C1: 	@RequestMapping(
+			value = "hello",
+			method = RequestMethod.GET)
+
+C2: @GetMapping("hello")
+
+@RequestMapping("/admin/") được khai báo nó sẽ .. cho các tiền tố bên trong class
+@RequestParam : defaultValue, Optional.
+
+-->Springboot: 
+	++> một frame work có mã nguồn mở 
+	+> frame work: 
+	+> open source: mã nguồn mở
+	+> MVC: 
+	+> IoC, DI: Inversion of Control
+
+- cài đặt Springboot
+- Ioc Container
+	+> Dependency: hai class phụ thuộc trực tiếp vào nhau.
+	+> Denpendency Injection: tiêm phụ thuộc từ bên ngoài . tiêm qua hàm khởi tạo hoặc qua hà, getter, setter
+	+> Ioc Container:
+-( OOP ) có 4 tính chất
+	+> Đóng gói:  access modifier
+	+> Kế thừa: extends , kế thừa những thứ không private của lớp cha.
+	+> Trừu tượng: abstract , interface
+	+> Đa hình: Overload , Override(ghi đè phương thức của lớp cha)
+
+
+

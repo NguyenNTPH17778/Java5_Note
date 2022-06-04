@@ -1,0 +1,1 @@
+- Databinding là sự kết nối dữ liệucủa bean trong Model vào các. Điều khiển form và ngược lại.
